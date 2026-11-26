@@ -11,7 +11,7 @@ export const Header: React.FC = () => {
       <div className="header-top">
         <h1 className="app-title">
           <CheckSquare size={28} className="text-primary" />
-          <span>오늘의 할 일</span>
+          <span>꼭해야 할일</span>
         </h1>
         <span className="current-date-badge" title="현재 날짜">
           {displayToday}
